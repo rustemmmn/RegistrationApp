@@ -26,6 +26,8 @@ namespace RegistrationApp
             Mail = mail;
             Login = login;
             Password = password;
+
+            UsersStorage.AddUser(this); // Добавление пользователя в хранилище
         }
 
     }
